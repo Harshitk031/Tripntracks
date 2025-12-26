@@ -33,10 +33,13 @@ export default function FilterSidebar({ type }: FilterSidebarProps) {
     // Update URL when price changes (Debounced)
     useEffect(() => {
         const timeoutId = setTimeout(() => {
-            router.push(`?${createQueryString('max_price', priceRange.toString())}`, { scroll: false });
+            const currentPrice = Number(searchParams.get('max_price')) || 200000;
+            if (currentPrice !== priceRange) {
+                router.push(`?${createQueryString('max_price', priceRange.toString())}`, { scroll: false });
+            }
         }, 500);
         return () => clearTimeout(timeoutId);
-    }, [priceRange, router, createQueryString]);
+    }, [priceRange, router, createQueryString, searchParams]);
 
     // Handle Checkbox Changes
     const handleCheckboxChange = (value: string, currentValues: string[], setFn: (vals: string[]) => void, paramName: string) => {
