@@ -167,39 +167,43 @@ export default function DestinationDetailsClient({ id }: DestinationDetailsClien
                             </div>
                         </section>
 
-                        {/* Daily Itinerary Accordion */}
+                        {/* Daily Itinerary Timeline */}
                         <section>
-                            <h2 className="text-2xl font-bold text-gray-900 mb-6">Daily Itinerary</h2>
-                            <div className="space-y-4">
+                            <h2 className="text-2xl font-bold text-gray-900 mb-8">Daily Itinerary</h2>
+                            <div className="relative pl-8 space-y-12 before:absolute before:inset-0 before:ml-3.5 before:h-full before:w-0.5 before:-translate-x-1/2 before:bg-gradient-to-b before:from-blue-600 before:via-blue-200 before:to-transparent">
                                 {dest.itinerary?.map((item: any, idx: number) => (
-                                    <div key={idx} className="border border-gray-200 rounded-xl bg-white overflow-hidden transition-all duration-300 hover:shadow-md">
-                                        <button
-                                            onClick={() => toggleDay(idx)}
-                                            className="w-full flex items-center justify-between p-6 text-left"
-                                        >
-                                            <div className="flex items-center gap-4">
-                                                <div className={`w-12 h-12 rounded-full flex items-center justify-center font-bold text-lg transition-colors ${openDay === idx ? 'bg-blue-600 text-white' : 'bg-blue-50 text-blue-600'}`}>
-                                                    {item.day}
-                                                </div>
-                                                <div>
-                                                    <h3 className="text-lg font-bold text-gray-900">{item.title}</h3>
-                                                    <p className="text-sm text-gray-500">Detailed plan for Day {item.day}</p>
-                                                </div>
-                                            </div>
-                                            {openDay === idx ? <ChevronUp className="text-gray-400" /> : <ChevronDown className="text-gray-400" />}
-                                        </button>
+                                    <div key={idx} className="relative">
+                                        {/* Timeline Dot */}
+                                        <div className="absolute left-[-2.6rem] top-1 flex h-8 w-8 items-center justify-center rounded-full bg-blue-600 ring-4 ring-blue-50 text-white font-bold text-sm shadow-lg z-10">
+                                            {item.day}
+                                        </div>
 
-                                        {openDay === idx && (
-                                            <div className="px-6 pb-6 pl-20 border-t border-gray-100 pt-4 animate-fade-in-up">
-                                                <p className="text-gray-600 leading-relaxed">
-                                                    {item.desc}
-                                                </p>
-                                                <div className="mt-4 flex gap-3">
-                                                    <span className="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded">Morning Activity</span>
-                                                    <span className="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded">Sightseeing</span>
+                                        <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-shadow group">
+                                            <div className="flex justify-between items-start mb-4">
+                                                <div>
+                                                    <h3 className="text-xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors">
+                                                        {item.title}
+                                                    </h3>
+                                                    <span className="text-sm font-medium text-gray-400 uppercase tracking-wider">Day {item.day}</span>
+                                                </div>
+                                                <div className="p-2 bg-blue-50 rounded-lg text-blue-600">
+                                                    <MapPin className="w-5 h-5" />
                                                 </div>
                                             </div>
-                                        )}
+
+                                            <p className="text-gray-600 leading-relaxed">
+                                                {item.desc}
+                                            </p>
+
+                                            <div className="mt-4 pt-4 border-t border-gray-50 flex gap-2">
+                                                <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-50 text-green-700">
+                                                    Included
+                                                </span>
+                                                <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-50 text-gray-600">
+                                                    Sightseeing
+                                                </span>
+                                            </div>
+                                        </div>
                                     </div>
                                 ))}
                             </div>

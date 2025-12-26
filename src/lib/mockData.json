@@ -3,6 +3,11 @@
         {
             "id": "d1",
             "name": "Paris, France",
+            "categories": [
+                "Honeymoon",
+                "Heritage",
+                "Solo"
+            ],
             "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&q=80&w=800",
             "description": "City of Light",
             "longDescription": "Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture. Its 19th-century cityscape is crisscrossed by wide boulevards and the River Seine. Beyond such landmarks as the Eiffel Tower and the 12th-century, Gothic Notre-Dame cathedral, the city is known for its cafe culture and designer boutiques along the Rue du Faubourg Saint-Honor\u00e9.",
@@ -35,6 +40,11 @@
         {
             "id": "d2",
             "name": "Bali, Indonesia",
+            "categories": [
+                "Honeymoon",
+                "Adventure",
+                "Nature"
+            ],
             "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&q=80&w=800",
             "description": "Tropical Paradise",
             "longDescription": "Bali is an Indonesian island known for its forested volcanic mountains, iconic rice paddies, beaches and coral reefs. The island is home to religious sites such as cliffside Uluwatu Temple. To the south, the beachside city of Kuta has lively bars, while Seminyak, Sanur and Nusa Dua are popular resort towns.",
@@ -67,6 +77,11 @@
         {
             "id": "d3",
             "name": "Tokyo, Japan",
+            "categories": [
+                "Solo",
+                "Adventure",
+                "Heritage"
+            ],
             "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&q=80&w=800",
             "description": "Neon Future",
             "rating": 4.9,
@@ -99,6 +114,10 @@
         {
             "id": "d4",
             "name": "New York, USA",
+            "categories": [
+                "Solo",
+                "Adventure"
+            ],
             "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&q=80&w=800",
             "description": "The Big Apple",
             "longDescription": "New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. At its core is Manhattan, a densely populated borough that\u2019s among the world\u2019s major commercial, financial and cultural centers. Its iconic sites include skyscrapers such as the Empire State Building and sprawling Central Park. Broadway theater is staged in neon-lit Times Square.",
@@ -131,6 +150,11 @@
         {
             "id": "d-goa",
             "name": "Goa, India",
+            "categories": [
+                "Adventure",
+                "Honeymoon",
+                "Solo"
+            ],
             "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&q=80&w=800",
             "description": "Beaches & Nightlife",
             "longDescription": "Goa is a state in western India with coastlines stretching along the Arabian Sea. Its long history as a Portuguese colony prior to 1961 is evident in its preserved 17th-century churches and the area\u2019s tropical spice plantations. Goa is also known for its beaches, ranging from popular stretches at Baga and Palolem to those in laid-back fishing villages such as Agonda.",
@@ -163,6 +187,11 @@
         {
             "id": "d-kerala",
             "name": "Kerala, India",
+            "categories": [
+                "Honeymoon",
+                "Nature",
+                "Religious"
+            ],
             "image": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&q=80&w=800",
             "description": "God's Own Country",
             "longDescription": "Kerala, a state on India's tropical Malabar Coast, has nearly 600km of Arabian Sea shoreline. It's known for its palm-lined beaches and backwaters, a network of canals. Inland are the Western Ghats, mountains whose slopes support tea, coffee and spice plantations as well as wildlife.",
@@ -195,6 +224,11 @@
         {
             "id": "d-jaipur",
             "name": "Jaipur, India",
+            "categories": [
+                "Heritage",
+                "Honeymoon",
+                "Solo"
+            ],
             "image": "/images/jaipur_1.png",
             "images": [
                 "/images/jaipur_1.png",
@@ -202,13 +236,6 @@
                 "/images/jaipur_3.png",
                 "/images/jaipur_4.png",
                 "/images/jaipur_5.png"
-            ],
-            "images": [
-                "https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&q=80&w=1200",
-                "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&q=80&w=800",
-                "https://images.unsplash.com/photo-1598324789736-4861f89564a0?auto=format&fit=crop&q=80&w=800",
-                "https://images.unsplash.com/photo-1534759846116-5799c33ce36a?auto=format&fit=crop&q=80&w=800",
-                "https://images.unsplash.com/photo-1628198751508-360341764663?auto=format&fit=crop&q=80&w=800"
             ],
             "description": "The Pink City",
             "longDescription": "Jaipur is the capital of India’s Rajasthan state. It evokes the royal family that once ruled the region and that, in 1727, founded what is now called the Old City, or 'Pink City' for its trademark building color. At the center of its stately street grid (notable in India) stands the opulent, colonnaded City Palace complex.",
@@ -259,6 +286,11 @@
         {
             "id": "d-ladakh",
             "name": "Ladakh, India",
+            "categories": [
+                "Adventure",
+                "Solo",
+                "Nature"
+            ],
             "image": "/images/ladakh.jpg",
             "images": [
                 "/images/ladakh.jpg",
@@ -298,6 +330,11 @@
         {
             "id": "d-manali",
             "name": "Manali, India",
+            "categories": [
+                "Honeymoon",
+                "Adventure",
+                "Nature"
+            ],
             "image": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&q=80&w=800",
             "description": "Himalayan Resort Town",
             "longDescription": "Manali is a high-altitude Himalayan resort town in India\u2019s northern Himachal Pradesh state. It has a reputation as a backpacking center and honeymoon destination. Set on the Beas River, it\u2019s a gateway for skiing in the Solang Valley and trekking in Parvati Valley.",
@@ -330,6 +367,10 @@
         {
             "id": "d-udaipur",
             "name": "Udaipur, India",
+            "categories": [
+                "Heritage",
+                "Honeymoon"
+            ],
             "image": "https://images.unsplash.com/photo-1615836245337-f5b9b2303f10?auto=format&fit=crop&q=80&w=800",
             "description": "City of Lakes",
             "longDescription": "Udaipur, formerly the capital of the Mewar Kingdom, is a city in the western Indian state of Rajasthan. Founded by Maharana Udai Singh II in 1559, it\u2019s set around a series of artificial lakes and is known for its lavish royal residences. City Palace, overlooking Lake Pichola, is a monumental complex of 11 palaces.",
@@ -362,6 +403,10 @@
         {
             "id": "d-varanasi",
             "name": "Varanasi, India",
+            "categories": [
+                "Religious",
+                "Heritage"
+            ],
             "image": "https://images.unsplash.com/photo-1561359313-0639aad49ca6?auto=format&fit=crop&q=80&w=800",
             "description": "Spiritual Capital",
             "longDescription": "Varanasi is a city in the northern Indian state of Uttar Pradesh dating to the 11th century B.C. Regarded as the spiritual capital of India, the city draws Hindu pilgrims who bathe in the Ganges River\u2019s sacred waters and perform funeral rites. Along the city's winding streets are some 2,000 temples.",
@@ -394,6 +439,11 @@
         {
             "id": "d-dubai",
             "name": "Dubai, UAE",
+            "categories": [
+                "Solo",
+                "Honeymoon",
+                "Adventure"
+            ],
             "image": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&q=80&w=800",
             "description": "Luxury & Skyscrapers",
             "longDescription": "Dubai is a city and emirate in the United Arab Emirates known for luxury shopping, ultramodern architecture and a lively nightlife scene. Burj Khalifa, an 830m-tall tower, dominates the skyscraper-filled skyline. At its foot lies Dubai Fountain, with jets and lights choreographed to music.",
@@ -458,6 +508,10 @@
         {
             "id": "d-maldives",
             "name": "Maldives",
+            "categories": [
+                "Honeymoon",
+                "Nature"
+            ],
             "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&q=80&w=800",
             "description": "Island Luxury",
             "longDescription": "The Maldives, arguably the ultimate island paradise, is a nation of tropical islands in the Indian Ocean. It is known for its beaches, blue lagoons and extensive reefs. The capital, Mal\u00e9, has a busy fish market, restaurants and shops on the main road, Majeedhee Magu.",
@@ -490,6 +544,10 @@
         {
             "id": "d-santorini",
             "name": "Santorini, Greece",
+            "categories": [
+                "Honeymoon",
+                "Nature"
+            ],
             "image": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&q=80&w=800",
             "description": "White & Blue",
             "longDescription": "Santorini is one of the Cyclades islands in the Aegean Sea. It was devastated by a volcanic eruption in the 16th century BC, forever shaping its rugged landscape. The whitewashed, cubiform houses of its 2 principal towns, Fira and Oia, cling to cliffs above an underwater caldera.",
@@ -593,6 +651,11 @@
         {
             "id": "d-rishikesh",
             "name": "Rishikesh, India",
+            "categories": [
+                "Adventure",
+                "Religious",
+                "Solo"
+            ],
             "image": "/images/rishikesh_1.png",
             "images": [
                 "/images/rishikesh_1.png",
@@ -632,6 +695,11 @@
         {
             "id": "d-gangtok",
             "name": "Gangtok, India",
+            "categories": [
+                "Nature",
+                "Adventure",
+                "Honeymoon"
+            ],
             "image": "/images/gangtok_1.png",
             "images": [
                 "/images/gangtok_1.png",
@@ -671,6 +739,11 @@
         {
             "id": "d-hampi",
             "name": "Hampi, India",
+            "categories": [
+                "Heritage",
+                "Religious",
+                "Solo"
+            ],
             "image": "https://images.unsplash.com/photo-1620766182966-c6eb5ed2b788?auto=format&fit=crop&q=80&w=800",
             "description": "Ruins & Boulders",
             "longDescription": "Hampi is an ancient village in the south Indian state of Karnataka. It\u2019s dotted with numerous ruined temple complexes from the Vijayanagara Empire. On the south bank of the River Tungabhadra is the 7th-century Hindu Virupaksha Temple, near the revived Hampi Bazaar.",
@@ -742,6 +815,11 @@
         {
             "id": "d-tungnath",
             "name": "Tungnath Trek (Chopta), India",
+            "categories": [
+                "Adventure",
+                "Religious",
+                "Nature"
+            ],
             "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800",
             "images": [
                 "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=1200",
@@ -799,6 +877,10 @@
         {
             "id": "d-rameshwaram",
             "name": "Rameshwaram, India",
+            "categories": [
+                "Religious",
+                "Heritage"
+            ],
             "image": "/images/rameshwaram.png",
             "images": [
                 "/images/rameshwaram.png",
@@ -908,6 +990,202 @@
                     "desc": "Poovar Island boat ride and mangroves."
                 }
             ]
+        },
+        {
+            "id": "d-andaman",
+            "name": "Andaman & Nicobar",
+            "categories": [
+                "Honeymoon",
+                "Nature",
+                "Adventure"
+            ],
+            "image": "https://images.unsplash.com/photo-1589330273594-fade1ee91647?auto=format&fit=crop&q=80&w=800",
+            "images": [
+                "https://images.unsplash.com/photo-1589330273594-fade1ee91647?auto=format&fit=crop&q=80&w=1200",
+                "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&q=80&w=800",
+                "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&q=80&w=800",
+                "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&q=80&w=800",
+                "https://images.unsplash.com/photo-1566304856424-697669d5872a?auto=format&fit=crop&q=80&w=800"
+            ],
+            "description": "Tropical Paradise",
+            "longDescription": "The Andaman Islands are an Indian archipelago in the Bay of Bengal. These roughly 300 islands are known for their palm-lined, white-sand beaches, mangroves and tropical rainforests. Coral reefs supporting marine life such as sharks and rays make for popular diving and snorkeling sites.",
+            "rating": 4.9,
+            "reviews": 420,
+            "price": 42000,
+            "highlights": [
+                "Havelock Island",
+                "Radhanagar Beach",
+                "Cellular Jail",
+                "Scuba Diving"
+            ],
+            "itinerary": [
+                {
+                    "day": 1,
+                    "title": "Port Blair",
+                    "desc": "Arrival and visit to Cellular Jail Light & Sound Show."
+                },
+                {
+                    "day": 2,
+                    "title": "Havelock",
+                    "desc": "Ferry to Havelock and sunset at Radhanagar Beach."
+                },
+                {
+                    "day": 3,
+                    "title": "Elephant Beach",
+                    "desc": "Water sports and snorkeling adventure."
+                }
+            ],
+            "weather": {
+                "temp": "29°C",
+                "bestTime": "Oct - May"
+            }
+        },
+        {
+            "id": "d-coorg",
+            "name": "Coorg, India",
+            "categories": [
+                "Nature",
+                "Honeymoon",
+                "Adventure"
+            ],
+            "image": "https://images.unsplash.com/photo-1594103130832-bf761e05d9e3?auto=format&fit=crop&q=80&w=800",
+            "images": [
+                "https://images.unsplash.com/photo-1594103130832-bf761e05d9e3?auto=format&fit=crop&q=80&w=1200",
+                "https://images.unsplash.com/photo-1596392942735-8656d0590c23?auto=format&fit=crop&q=80&w=800",
+                "https://images.unsplash.com/photo-1520286847898-7cfd6c76e275?auto=format&fit=crop&q=80&w=800",
+                "https://images.unsplash.com/photo-1582563364943-772c1c6225a0?auto=format&fit=crop&q=80&w=800",
+                "https://images.unsplash.com/photo-1506459345228-db936bc4bb0a?auto=format&fit=crop&q=80&w=800"
+            ],
+            "description": "Scotland of India",
+            "longDescription": "Coorg, officially known as Kodagu, is an affluent hill station in Karnataka. It is well known for its breathtakingly exotic scenery and lush greenery. Forest covered hills, spice and coffee plantations only add to the landscape.",
+            "rating": 4.7,
+            "reviews": 185,
+            "price": 18500,
+            "highlights": [
+                "Abbey Falls",
+                "Raja's Seat",
+                "Dubare Elephant Camp",
+                "Coffee Plantations"
+            ],
+            "itinerary": [
+                {
+                    "day": 1,
+                    "title": "Misty Hills",
+                    "desc": "Visit Raja's Seat and Omkareshwara Temple."
+                },
+                {
+                    "day": 2,
+                    "title": "Nature's Fury",
+                    "desc": "Trek to Abbey Falls and visit spice plantations."
+                },
+                {
+                    "day": 3,
+                    "title": "Wildlife",
+                    "desc": "Elephant interaction at Dubare Camp."
+                }
+            ],
+            "weather": {
+                "temp": "20°C",
+                "bestTime": "Sep - Mar"
+            }
+        },
+        {
+            "id": "d-jaisalmer",
+            "name": "Jaisalmer, India",
+            "categories": [
+                "Heritage",
+                "Adventure",
+                "Solo"
+            ],
+            "image": "https://images.unsplash.com/photo-1563729969-906d4e51173d?auto=format&fit=crop&q=80&w=800",
+            "images": [
+                "https://images.unsplash.com/photo-1563729969-906d4e51173d?auto=format&fit=crop&q=80&w=1200",
+                "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&q=80&w=800",
+                "https://images.unsplash.com/photo-1534759846116-5799c33ce36a?auto=format&fit=crop&q=80&w=800",
+                "https://images.unsplash.com/photo-1628198751508-360341764663?auto=format&fit=crop&q=80&w=800",
+                "https://images.unsplash.com/photo-1628198750868-b7eb465f026a?auto=format&fit=crop&q=80&w=800"
+            ],
+            "description": "The Golden City",
+            "longDescription": "Jaisalmer is a former medieval trading center and a princely state in the western Indian state of Rajasthan, in the heart of the Thar Desert. Known as the 'Golden City,' it's distinguished by its yellow sandstone architecture. Dominating the skyline is Jaisalmer Fort, a sprawling hilltop citadel buttressed by 99 bastions.",
+            "rating": 4.8,
+            "reviews": 310,
+            "price": 26000,
+            "highlights": [
+                "Jaisalmer Fort",
+                "Sam Sand Dunes",
+                "Gadisar Lake",
+                "Patwon Ki Haveli"
+            ],
+            "itinerary": [
+                {
+                    "day": 1,
+                    "title": "Golden Fort",
+                    "desc": "Explore the living fort of Jaisalmer."
+                },
+                {
+                    "day": 2,
+                    "title": "Desert Safari",
+                    "desc": "Camel ride and camping at Sam Sand Dunes."
+                },
+                {
+                    "day": 3,
+                    "title": "Havelis",
+                    "desc": "Visit the ornate Patwon Ki Haveli and markets."
+                }
+            ],
+            "weather": {
+                "temp": "32°C",
+                "bestTime": "Oct - Mar"
+            }
+        },
+        {
+            "id": "d-london",
+            "name": "London, UK",
+            "categories": [
+                "Heritage",
+                "Solo",
+                "Honeymoon"
+            ],
+            "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=800",
+            "images": [
+                "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=1200",
+                "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?auto=format&fit=crop&q=80&w=800",
+                "https://images.unsplash.com/photo-1486299267070-83823f5448dd?auto=format&fit=crop&q=80&w=800",
+                "https://images.unsplash.com/photo-1520986606214-8b456906c813?auto=format&fit=crop&q=80&w=800",
+                "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&q=80&w=800"
+            ],
+            "description": "Historic Capital",
+            "longDescription": "London, the capital of England and the United Kingdom, is a 21st-century city with history stretching back to Roman times. At its centre stand the imposing Houses of Parliament, the iconic 'Big Ben' clock tower and Westminster Abbey, site of British monarch coronations. Across the Thames River, the London Eye observation wheel provides panoramic views.",
+            "rating": 4.9,
+            "reviews": 850,
+            "price": 145000,
+            "highlights": [
+                "Big Ben",
+                "London Eye",
+                "Tower Bridge",
+                "British Museum"
+            ],
+            "itinerary": [
+                {
+                    "day": 1,
+                    "title": "Royal London",
+                    "desc": "Buckingham Palace and Westminster Abbey."
+                },
+                {
+                    "day": 2,
+                    "title": "Culture & Art",
+                    "desc": "British Museum and Covent Garden."
+                },
+                {
+                    "day": 3,
+                    "title": "Thames Views",
+                    "desc": "Tower Bridge and London Eye ride."
+                }
+            ],
+            "weather": {
+                "temp": "15°C",
+                "bestTime": "Jun - Aug"
+            }
         }
     ],
     "flights": [
@@ -952,6 +1230,244 @@
             "price": 79800,
             "stops": 0,
             "refundable": true
+        },
+        {
+            "id": "f4",
+            "airline": "Indigo",
+            "logo": "https://images.unsplash.com/photo-1542296332-2e44a991616e?auto=format&fit=crop&q=80&w=50",
+            "flightNumber": "6E-205",
+            "from": "Delhi (DEL)",
+            "to": "Goa (GOI)",
+            "departureTime": "10:30 AM",
+            "arrivalTime": "01:00 PM",
+            "duration": "2h 30m",
+            "price": 5500,
+            "stops": 0,
+            "refundable": false
+        },
+        {
+            "id": "f5",
+            "airline": "Air India",
+            "logo": "https://images.unsplash.com/photo-1542296332-2e44a991616e?auto=format&fit=crop&q=80&w=50",
+            "flightNumber": "AI-402",
+            "from": "Mumbai (BOM)",
+            "to": "Kochi (COK)",
+            "departureTime": "06:00 AM",
+            "arrivalTime": "08:00 AM",
+            "duration": "2h 00m",
+            "price": 4200,
+            "stops": 0,
+            "refundable": true
+        },
+        {
+            "id": "f6",
+            "airline": "Akasa Air",
+            "logo": "https://images.unsplash.com/photo-1542296332-2e44a991616e?auto=format&fit=crop&q=80&w=50",
+            "flightNumber": "QP-133",
+            "from": "Bangalore (BLR)",
+            "to": "Varanasi (VNS)",
+            "departureTime": "04:15 PM",
+            "arrivalTime": "07:00 PM",
+            "duration": "2h 45m",
+            "price": 6800,
+            "stops": 0,
+            "refundable": true
+        },
+        {
+            "id": "f7",
+            "airline": "Indigo",
+            "logo": "https://images.unsplash.com/photo-1542296332-2e44a991616e?auto=format&fit=crop&q=80&w=50",
+            "flightNumber": "6E-554",
+            "from": "Hyderabad (HYD)",
+            "to": "Andaman (IXZ)",
+            "departureTime": "08:45 AM",
+            "arrivalTime": "02:20 PM",
+            "duration": "5h 35m",
+            "price": 11500,
+            "stops": 1,
+            "refundable": false
+        },
+        {
+            "id": "f8",
+            "airline": "Air India",
+            "logo": "https://images.unsplash.com/photo-1542296332-2e44a991616e?auto=format&fit=crop&q=80&w=50",
+            "flightNumber": "AI-101",
+            "from": "Delhi (DEL)",
+            "to": "London (LHR)",
+            "departureTime": "02:30 AM",
+            "arrivalTime": "07:30 AM",
+            "duration": "9h 30m",
+            "price": 48000,
+            "stops": 0,
+            "refundable": true
+        },
+        {
+            "id": "f9",
+            "airline": "Akasa Air",
+            "logo": "https://images.unsplash.com/photo-1542296332-2e44a991616e?auto=format&fit=crop&q=80&w=50",
+            "flightNumber": "QP-110",
+            "from": "Mumbai (BOM)",
+            "to": "Goa (GOI)",
+            "departureTime": "11:00 AM",
+            "arrivalTime": "12:15 PM",
+            "duration": "1h 15m",
+            "price": 3500,
+            "stops": 0,
+            "refundable": false
+        },
+        {
+            "id": "f10",
+            "airline": "Indigo",
+            "logo": "https://images.unsplash.com/photo-1542296332-2e44a991616e?auto=format&fit=crop&q=80&w=50",
+            "flightNumber": "6E-789",
+            "from": "Delhi (DEL)",
+            "to": "Srinagar (SXR)",
+            "departureTime": "09:15 AM",
+            "arrivalTime": "10:45 AM",
+            "duration": "1h 30m",
+            "price": 7200,
+            "stops": 0,
+            "refundable": true
+        },
+        {
+            "id": "f11",
+            "airline": "Air India",
+            "logo": "https://images.unsplash.com/photo-1542296332-2e44a991616e?auto=format&fit=crop&q=80&w=50",
+            "flightNumber": "AI-865",
+            "from": "Varanasi (VNS)",
+            "to": "Mumbai (BOM)",
+            "departureTime": "01:30 PM",
+            "arrivalTime": "03:45 PM",
+            "duration": "2h 15m",
+            "price": 5400,
+            "stops": 0,
+            "refundable": true
+        },
+        {
+            "id": "f12",
+            "airline": "Akasa Air",
+            "logo": "https://images.unsplash.com/photo-1542296332-2e44a991616e?auto=format&fit=crop&q=80&w=50",
+            "flightNumber": "QP-501",
+            "from": "Bangalore (BLR)",
+            "to": "Kochi (COK)",
+            "departureTime": "07:00 AM",
+            "arrivalTime": "08:00 AM",
+            "duration": "1h 00m",
+            "price": 2900,
+            "stops": 0,
+            "refundable": false
+        },
+        {
+            "id": "f13",
+            "airline": "Indigo",
+            "logo": "https://images.unsplash.com/photo-1542296332-2e44a991616e?auto=format&fit=crop&q=80&w=50",
+            "flightNumber": "6E-332",
+            "from": "Mumbai (BOM)",
+            "to": "Jaisalmer (JSA)",
+            "departureTime": "12:00 PM",
+            "arrivalTime": "01:45 PM",
+            "duration": "1h 45m",
+            "price": 6100,
+            "stops": 0,
+            "refundable": true
+        },
+        {
+            "id": "f14",
+            "airline": "Air India",
+            "logo": "https://images.unsplash.com/photo-1542296332-2e44a991616e?auto=format&fit=crop&q=80&w=50",
+            "flightNumber": "AI-998",
+            "from": "Hyderabad (HYD)",
+            "to": "London (LHR)",
+            "departureTime": "05:00 AM",
+            "arrivalTime": "11:00 AM",
+            "duration": "10h 30m",
+            "price": 52500,
+            "stops": 1,
+            "refundable": true
+        },
+        {
+            "id": "f15",
+            "airline": "Indigo",
+            "logo": "https://images.unsplash.com/photo-1542296332-2e44a991616e?auto=format&fit=crop&q=80&w=50",
+            "flightNumber": "6E-441",
+            "from": "Delhi (DEL)",
+            "to": "Andaman (IXZ)",
+            "departureTime": "05:30 AM",
+            "arrivalTime": "09:00 AM",
+            "duration": "3h 30m",
+            "price": 9800,
+            "stops": 0,
+            "refundable": false
+        },
+        {
+            "id": "f16",
+            "airline": "Akasa Air",
+            "logo": "https://images.unsplash.com/photo-1542296332-2e44a991616e?auto=format&fit=crop&q=80&w=50",
+            "flightNumber": "QP-202",
+            "from": "Bangalore (BLR)",
+            "to": "Goa (GOI)",
+            "departureTime": "03:00 PM",
+            "arrivalTime": "04:15 PM",
+            "duration": "1h 15m",
+            "price": 3100,
+            "stops": 0,
+            "refundable": true
+        },
+        {
+            "id": "f17",
+            "airline": "Air India",
+            "logo": "https://images.unsplash.com/photo-1542296332-2e44a991616e?auto=format&fit=crop&q=80&w=50",
+            "flightNumber": "AI-677",
+            "from": "Varanasi (VNS)",
+            "to": "Delhi (DEL)",
+            "departureTime": "08:00 AM",
+            "arrivalTime": "09:30 AM",
+            "duration": "1h 30m",
+            "price": 3800,
+            "stops": 0,
+            "refundable": false
+        },
+        {
+            "id": "f18",
+            "airline": "Indigo",
+            "logo": "https://images.unsplash.com/photo-1542296332-2e44a991616e?auto=format&fit=crop&q=80&w=50",
+            "flightNumber": "6E-990",
+            "from": "Mumbai (BOM)",
+            "to": "Srinagar (SXR)",
+            "departureTime": "06:15 AM",
+            "arrivalTime": "09:00 AM",
+            "duration": "2h 45m",
+            "price": 8500,
+            "stops": 0,
+            "refundable": true
+        },
+        {
+            "id": "f19",
+            "airline": "Akasa Air",
+            "logo": "https://images.unsplash.com/photo-1542296332-2e44a991616e?auto=format&fit=crop&q=80&w=50",
+            "flightNumber": "QP-776",
+            "from": "Hyderabad (HYD)",
+            "to": "Bangalore (BLR)",
+            "departureTime": "10:30 PM",
+            "arrivalTime": "11:30 PM",
+            "duration": "1h 00m",
+            "price": 2800,
+            "stops": 0,
+            "refundable": true
+        },
+        {
+            "id": "f20",
+            "airline": "Air India",
+            "logo": "https://images.unsplash.com/photo-1542296332-2e44a991616e?auto=format&fit=crop&q=80&w=50",
+            "flightNumber": "AI-112",
+            "from": "Delhi (DEL)",
+            "to": "Kochi (COK)",
+            "departureTime": "04:00 PM",
+            "arrivalTime": "07:15 PM",
+            "duration": "3h 15m",
+            "price": 6500,
+            "stops": 0,
+            "refundable": true
         }
     ],
     "hotels": [
@@ -992,6 +1508,216 @@
             "amenities": [
                 "WiFi",
                 "Close to Metro"
+            ]
+        },
+        {
+            "id": "h4",
+            "name": "Taj Exotica Resort",
+            "location": "Goa, India",
+            "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=800",
+            "rating": 5,
+            "pricePerNight": 28000,
+            "amenities": [
+                "Beachfront",
+                "Pool",
+                "Spa",
+                "Kids Club"
+            ]
+        },
+        {
+            "id": "h5",
+            "name": "Coconut Lagoon",
+            "location": "Kumarakom, Kerala",
+            "image": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&q=80&w=800",
+            "rating": 4,
+            "pricePerNight": 12500,
+            "amenities": [
+                "Lake View",
+                "Ayurveda",
+                "Boating",
+                "Restaurant"
+            ]
+        },
+        {
+            "id": "h6",
+            "name": "The Oberoi Udaivilas",
+            "location": "Udaipur, Rajasthan",
+            "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=800",
+            "rating": 5,
+            "pricePerNight": 45000,
+            "amenities": [
+                "Heritage",
+                "Lake View",
+                "Luxury Spa",
+                "Fine Dining"
+            ]
+        },
+        {
+            "id": "h7",
+            "name": "Havelock Island Beach Resort",
+            "location": "Andaman & Nicobar",
+            "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&q=80&w=800",
+            "rating": 4,
+            "pricePerNight": 15000,
+            "amenities": [
+                "Private Beach",
+                "Scuba Diving",
+                "Bar",
+                "WiFi"
+            ]
+        },
+        {
+            "id": "h8",
+            "name": "Coorg Wilderness Resort",
+            "location": "Coorg, Karnataka",
+            "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=800",
+            "rating": 5,
+            "pricePerNight": 18000,
+            "amenities": [
+                "Nature Trails",
+                "Infinity Pool",
+                "Fireplace",
+                "Gym"
+            ]
+        },
+        {
+            "id": "h9",
+            "name": "Suryagarh Jaisalmer",
+            "location": "Jaisalmer, Rajasthan",
+            "image": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&q=80&w=800",
+            "rating": 5,
+            "pricePerNight": 22000,
+            "amenities": [
+                "Desert Safari",
+                "Folk Music",
+                "Pool",
+                "Spa"
+            ]
+        },
+        {
+            "id": "h10",
+            "name": "The Lalit Grand Palace",
+            "location": "Srinagar, Kashmir",
+            "image": "https://images.unsplash.com/photo-1563911302283-d2bc129e7c1f?auto=format&fit=crop&q=80&w=800",
+            "rating": 5,
+            "pricePerNight": 25000,
+            "amenities": [
+                "Dal Lake View",
+                "Heated Pool",
+                "Gardens",
+                "Heating"
+            ]
+        },
+        {
+            "id": "h11",
+            "name": "Ganga Kinare",
+            "location": "Rishikesh, Uttarakhand",
+            "image": "https://images.unsplash.com/photo-1571896349842-68c693120173?auto=format&fit=crop&q=80&w=800",
+            "rating": 4,
+            "pricePerNight": 8500,
+            "amenities": [
+                "River View",
+                "Yoga",
+                "Vegetarian",
+                "Spa"
+            ]
+        },
+        {
+            "id": "h12",
+            "name": "Mayfair Spa Resort",
+            "location": "Gangtok, Sikkim",
+            "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=800",
+            "rating": 5,
+            "pricePerNight": 14000,
+            "amenities": [
+                "Casino",
+                "Mountain View",
+                "Tea Lounge",
+                "Spa"
+            ]
+        },
+        {
+            "id": "h13",
+            "name": "Savoy Hotel",
+            "location": "Ooty, Tamil Nadu",
+            "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=800",
+            "rating": 4,
+            "pricePerNight": 9500,
+            "amenities": [
+                "Heritage",
+                "Gardens",
+                "Fireplace",
+                "Game Room"
+            ]
+        },
+        {
+            "id": "h14",
+            "name": "Taj Malabar Resort",
+            "location": "Kochi, Kerala",
+            "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&q=80&w=800",
+            "rating": 5,
+            "pricePerNight": 16000,
+            "amenities": [
+                "Harbour View",
+                "Sunset Cruise",
+                "Pool",
+                "Seafood"
+            ]
+        },
+        {
+            "id": "h15",
+            "name": "Brij Rama Palace",
+            "location": "Varanasi, Uttar Pradesh",
+            "image": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&q=80&w=800",
+            "rating": 5,
+            "pricePerNight": 32000,
+            "amenities": [
+                "Ghat View",
+                "Heritage",
+                "Vegetarian",
+                "Boat Ride"
+            ]
+        },
+        {
+            "id": "h16",
+            "name": "The Londoner",
+            "location": "London, UK",
+            "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=800",
+            "rating": 5,
+            "pricePerNight": 48000,
+            "amenities": [
+                "City View",
+                "Rooftop Bar",
+                "Pool",
+                "Gym"
+            ]
+        },
+        {
+            "id": "h17",
+            "name": "Zostel Go",
+            "location": "Goa, India",
+            "image": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&q=80&w=800",
+            "rating": 3,
+            "pricePerNight": 2500,
+            "amenities": [
+                "Dorm",
+                "WiFi",
+                "Social Events",
+                "Cafe"
+            ]
+        },
+        {
+            "id": "h18",
+            "name": "Sterling Kodai Lake",
+            "location": "Kodaikanal, Tamil Nadu",
+            "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=800",
+            "rating": 4,
+            "pricePerNight": 7500,
+            "amenities": [
+                "Lake View",
+                "Cycling",
+                "Bonfire",
+                "Restaurant"
             ]
         }
     ],

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { BookingProvider } from "@/context/BookingContext";
+import { WishlistProvider } from "@/context/WishlistContext";
 import Header from "@/components/shared/Header";
 import MobileNav from "@/components/shared/MobileNav";
 
@@ -21,9 +22,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <BookingProvider>
-          <Header />
-          {children}
-          <MobileNav />
+          <WishlistProvider>
+            <Header />
+            {children}
+            <MobileNav />
+          </WishlistProvider>
         </BookingProvider>
       </body>
     </html>

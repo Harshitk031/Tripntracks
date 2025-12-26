@@ -3,8 +3,9 @@
 import React from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Menu, User, Briefcase } from 'lucide-react';
+import { Menu, User, Briefcase, Heart } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import WishlistBadge from './WishlistBadge';
 
 export default function Header() {
     const pathname = usePathname();
@@ -28,6 +29,14 @@ export default function Header() {
             </nav>
 
             <div className="flex items-center gap-4">
+                <Link
+                    href="/wishlist"
+                    className="relative p-2 rounded-full hover:bg-gray-100 text-gray-600 hover:text-red-500 transition-colors group"
+                >
+                    <Heart className="w-5 h-5 group-hover:scale-110 transition-transform" />
+                    <WishlistBadge />
+                </Link>
+
                 <Link
                     href="/dashboard/bookings"
                     className="hidden md:flex items-center gap-2 text-sm font-semibold text-gray-600 hover:text-orange-600 transition-colors bg-gray-50 px-4 py-2 rounded-full hover:bg-orange-50"

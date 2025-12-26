@@ -1,14 +1,19 @@
-import { Suspense } from 'react';
+"use client";
+
+import { useState } from 'react';
 import Header from '@/components/shared/Header';
 import MobileNav from '@/components/shared/MobileNav';
 import SearchWidget from '@/components/home/SearchWidget';
 import TrendingDestinations from '@/components/home/TrendingDestinations';
 import WhyChooseUs from '@/components/home/WhyChooseUs';
+import CategoryBrowser from '@/components/home/CategoryBrowser';
 import ItineraryPreview from '@/components/home/ItineraryPreview';
 import Testimonials from '@/components/home/Testimonials';
 import Footer from '@/components/shared/Footer';
 
 export default function Home() {
+  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+
   return (
     <main className="min-h-screen bg-white">
       {/* HERO SECTION - Immersive Video/Parallax feel */}
@@ -45,7 +50,11 @@ export default function Home() {
 
       {/* Main Content Flow */}
       <div className="pt-16">
-        <TrendingDestinations />
+        <CategoryBrowser
+          selectedCategory={selectedCategory}
+          onSelectCategory={setSelectedCategory}
+        />
+        <TrendingDestinations selectedCategory={selectedCategory} />
         <ItineraryPreview />
         <WhyChooseUs />
         <Testimonials />
