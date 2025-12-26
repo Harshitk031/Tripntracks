@@ -1,0 +1,1172 @@
+{
+    "destinations": [
+        {
+            "id": "d1",
+            "name": "Paris, France",
+            "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&q=80&w=800",
+            "description": "City of Light",
+            "longDescription": "Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture. Its 19th-century cityscape is crisscrossed by wide boulevards and the River Seine. Beyond such landmarks as the Eiffel Tower and the 12th-century, Gothic Notre-Dame cathedral, the city is known for its cafe culture and designer boutiques along the Rue du Faubourg Saint-Honor\u00e9.",
+            "rating": 4.8,
+            "price": 100800,
+            "highlights": [
+                "Eiffel Tower Tour",
+                "Louvre Museum",
+                "Seine River Cruise",
+                "Montmartre Walk"
+            ],
+            "itinerary": [
+                {
+                    "day": 1,
+                    "title": "Arrival & Eiffel Tower",
+                    "desc": "Land in Paris, check-in, and visit the Iron Lady at sunset."
+                },
+                {
+                    "day": 2,
+                    "title": "Art & History",
+                    "desc": "Explore the Louvre and walk through the historic Le Marais."
+                },
+                {
+                    "day": 3,
+                    "title": "Versailles Day Trip",
+                    "desc": "Royal palace tour and gardens."
+                }
+            ]
+        },
+        {
+            "id": "d2",
+            "name": "Bali, Indonesia",
+            "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&q=80&w=800",
+            "description": "Tropical Paradise",
+            "longDescription": "Bali is an Indonesian island known for its forested volcanic mountains, iconic rice paddies, beaches and coral reefs. The island is home to religious sites such as cliffside Uluwatu Temple. To the south, the beachside city of Kuta has lively bars, while Seminyak, Sanur and Nusa Dua are popular resort towns.",
+            "rating": 4.7,
+            "price": 67200,
+            "highlights": [
+                "Uluwatu Temple",
+                "Ubud Monkey Forest",
+                "Tegalalang Rice Terrace",
+                "Seminyak Beach"
+            ],
+            "itinerary": [
+                {
+                    "day": 1,
+                    "title": "Beach Relaxation",
+                    "desc": "Arrival and sunset at Seminyak."
+                },
+                {
+                    "day": 2,
+                    "title": "Cultural Heart",
+                    "desc": "Visit Ubud, temples, and rice terraces."
+                },
+                {
+                    "day": 3,
+                    "title": "Island Hopping",
+                    "desc": "Day trip to Nusa Penida."
+                }
+            ]
+        },
+        {
+            "id": "d3",
+            "name": "Tokyo, Japan",
+            "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&q=80&w=800",
+            "description": "Neon Future",
+            "rating": 4.9,
+            "price": 126000,
+            "longDescription": "Tokyo, Japan\u2019s busy capital, mixes the ultramodern and the traditional, from neon-lit skyscrapers to historic temples. The opulent Meiji Shinto Shrine is known for its towering gate and surrounding woods. The Imperial Palace sits amid large public gardens. The city's many museums offer exhibits ranging from classical art to reconstructed kabuki theater and modern anime.",
+            "highlights": [
+                "Shibuya Crossing",
+                "Sens\u014d-ji Temple",
+                "Akihabara",
+                "TeamLab Planets"
+            ],
+            "itinerary": [
+                {
+                    "day": 1,
+                    "title": "Modern Tokyo",
+                    "desc": "Shibuya and Harajuku fashion districts."
+                },
+                {
+                    "day": 2,
+                    "title": "Traditional Tokyo",
+                    "desc": "Asakusa and Ueno Park."
+                },
+                {
+                    "day": 3,
+                    "title": "Tech & Art",
+                    "desc": "Akihabara electronics and Digital Art Museum."
+                }
+            ]
+        },
+        {
+            "id": "d4",
+            "name": "New York, USA",
+            "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&q=80&w=800",
+            "description": "The Big Apple",
+            "longDescription": "New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. At its core is Manhattan, a densely populated borough that\u2019s among the world\u2019s major commercial, financial and cultural centers. Its iconic sites include skyscrapers such as the Empire State Building and sprawling Central Park. Broadway theater is staged in neon-lit Times Square.",
+            "rating": 4.6,
+            "price": 117600,
+            "highlights": [
+                "Times Square",
+                "Central Park",
+                "Statue of Liberty",
+                "Broadway Show"
+            ],
+            "itinerary": [
+                {
+                    "day": 1,
+                    "title": "City Lights",
+                    "desc": "Times Square and Broadway."
+                },
+                {
+                    "day": 2,
+                    "title": "Green & Art",
+                    "desc": "Central Park and The MET."
+                },
+                {
+                    "day": 3,
+                    "title": "Lady Liberty",
+                    "desc": "Ferry to Statue of Liberty and Ellis Island."
+                }
+            ]
+        },
+        {
+            "id": "d-goa",
+            "name": "Goa, India",
+            "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&q=80&w=800",
+            "description": "Beaches & Nightlife",
+            "longDescription": "Goa is a state in western India with coastlines stretching along the Arabian Sea. Its long history as a Portuguese colony prior to 1961 is evident in its preserved 17th-century churches and the area\u2019s tropical spice plantations. Goa is also known for its beaches, ranging from popular stretches at Baga and Palolem to those in laid-back fishing villages such as Agonda.",
+            "rating": 4.6,
+            "price": 33600,
+            "highlights": [
+                "Baga Beach",
+                "Old Goa Churches",
+                "Dudhsagar Falls",
+                "Night Markets"
+            ],
+            "itinerary": [
+                {
+                    "day": 1,
+                    "title": "North Goa Vibes",
+                    "desc": "Check-in near Baga, enjoy water sports and nightlife."
+                },
+                {
+                    "day": 2,
+                    "title": "Heritage & Culture",
+                    "desc": "Visit Basilica of Bom Jesus and spice plantations."
+                },
+                {
+                    "day": 3,
+                    "title": "South Goa Peace",
+                    "desc": "Relax at Palolem beach and sunset cruise."
+                }
+            ]
+        },
+        {
+            "id": "d-kerala",
+            "name": "Kerala, India",
+            "image": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&q=80&w=800",
+            "description": "God's Own Country",
+            "longDescription": "Kerala, a state on India's tropical Malabar Coast, has nearly 600km of Arabian Sea shoreline. It's known for its palm-lined beaches and backwaters, a network of canals. Inland are the Western Ghats, mountains whose slopes support tea, coffee and spice plantations as well as wildlife.",
+            "rating": 4.9,
+            "price": 46200,
+            "highlights": [
+                "Alleppey Houseboat",
+                "Munnar Tea Gardens",
+                "Kochi Fort",
+                "Varkala Cliff"
+            ],
+            "itinerary": [
+                {
+                    "day": 1,
+                    "title": "Misty Munnar",
+                    "desc": "Drive to Munnar, visit tea museum and waterfalls."
+                },
+                {
+                    "day": 2,
+                    "title": "Backwater Bliss",
+                    "desc": "Overnight stay in a traditional houseboat in Alleppey."
+                },
+                {
+                    "day": 3,
+                    "title": "Colonial Kochi",
+                    "desc": "Explore Fort Kochi, Jewish Synagogue and Chinese fishing nets."
+                }
+            ]
+        },
+        {
+            "id": "d-jaipur",
+            "name": "Jaipur, India",
+            "image": "/images/jaipur_1.png",
+            "images": [
+                "/images/jaipur_1.png",
+                "/images/jaipur_2.png",
+                "/images/jaipur_3.png",
+                "/images/jaipur_4.png",
+                "/images/jaipur_5.png"
+            ],
+            "images": [
+                "https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&q=80&w=1200",
+                "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&q=80&w=800",
+                "https://images.unsplash.com/photo-1598324789736-4861f89564a0?auto=format&fit=crop&q=80&w=800",
+                "https://images.unsplash.com/photo-1534759846116-5799c33ce36a?auto=format&fit=crop&q=80&w=800",
+                "https://images.unsplash.com/photo-1628198751508-360341764663?auto=format&fit=crop&q=80&w=800"
+            ],
+            "description": "The Pink City",
+            "longDescription": "Jaipur is the capital of India’s Rajasthan state. It evokes the royal family that once ruled the region and that, in 1727, founded what is now called the Old City, or 'Pink City' for its trademark building color. At the center of its stately street grid (notable in India) stands the opulent, colonnaded City Palace complex.",
+            "rating": 4.7,
+            "reviews": 342,
+            "price": 29400,
+            "highlights": [
+                "Amber Fort",
+                "Hawa Mahal",
+                "City Palace",
+                "Jantar Mantar"
+            ],
+            "itinerary": [
+                {
+                    "day": 1,
+                    "title": "The Pink City",
+                    "desc": "Visit Hawa Mahal and City Palace."
+                },
+                {
+                    "day": 2,
+                    "title": "Forts & Grandeur",
+                    "desc": "Elephant ride at Amber Fort and sunset at Nahargarh."
+                },
+                {
+                    "day": 3,
+                    "title": "Local shopping",
+                    "desc": "Explore Johari Bazaar for jewelry and textiles."
+                }
+            ],
+            "included": [
+                "5 Star Accommodation",
+                "Daily Breakfast",
+                "Airport Transfers",
+                "English Speaking Guide",
+                "Monument Entry Fees"
+            ],
+            "excluded": [
+                "International Flights",
+                "Lunch & Dinner",
+                "Visa Fees",
+                "Personal Expenses"
+            ],
+            "weather": {
+                "temp": "28°C",
+                "bestTime": "Oct - Mar"
+            }
+        },
+        {
+            "id": "d-ladakh",
+            "name": "Ladakh, India",
+            "image": "/images/ladakh.jpg",
+            "images": [
+                "/images/ladakh.jpg",
+                "https://images.unsplash.com/photo-1581793434119-94424c82b94f?auto=format&fit=crop&q=80&w=800",
+                "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800",
+                "https://images.unsplash.com/photo-1595842858742-b7d1428238ba?auto=format&fit=crop&q=80&w=800",
+                "https://images.unsplash.com/photo-1624699564264-6725206240d0?auto=format&fit=crop&q=80&w=800"
+            ],
+            "description": "Land of High Passes",
+            "longDescription": "Ladakh is a region administered by India as a union territory... It extends from the Siachen Glacier in the Karakoram range to the main Great Himalayas to the south. The region is known for its remote mountain beauty and culture.",
+            "rating": 5.0,
+            "price": 58800,
+            "highlights": [
+                "Pangong Lake",
+                "Nubra Valley",
+                "Leh Palace",
+                "Magnetic Hill"
+            ],
+            "itinerary": [
+                {
+                    "day": 1,
+                    "title": "Acclimatization",
+                    "desc": "Rest in Leh city to adjust to the altitude."
+                },
+                {
+                    "day": 2,
+                    "title": "Monasteries",
+                    "desc": "Visit Thiksey and Hemis monasteries."
+                },
+                {
+                    "day": 3,
+                    "title": "Blue Waters",
+                    "desc": "Day trip to the stunning Pangong Tso lake."
+                }
+            ]
+        },
+        {
+            "id": "d-manali",
+            "name": "Manali, India",
+            "image": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&q=80&w=800",
+            "description": "Himalayan Resort Town",
+            "longDescription": "Manali is a high-altitude Himalayan resort town in India\u2019s northern Himachal Pradesh state. It has a reputation as a backpacking center and honeymoon destination. Set on the Beas River, it\u2019s a gateway for skiing in the Solang Valley and trekking in Parvati Valley.",
+            "rating": 4.5,
+            "price": 25200,
+            "highlights": [
+                "Solang Valley",
+                "Rohtang Pass",
+                "Old Manali",
+                "Hadimba Temple"
+            ],
+            "itinerary": [
+                {
+                    "day": 1,
+                    "title": "Local Sightseeing",
+                    "desc": "Hadimba Temple and Mall Road."
+                },
+                {
+                    "day": 2,
+                    "title": "Snow Point",
+                    "desc": "Solang Valley adventure sports."
+                },
+                {
+                    "day": 3,
+                    "title": "Nature",
+                    "desc": "Jogini Waterfalls trek."
+                }
+            ]
+        },
+        {
+            "id": "d-udaipur",
+            "name": "Udaipur, India",
+            "image": "https://images.unsplash.com/photo-1615836245337-f5b9b2303f10?auto=format&fit=crop&q=80&w=800",
+            "description": "City of Lakes",
+            "longDescription": "Udaipur, formerly the capital of the Mewar Kingdom, is a city in the western Indian state of Rajasthan. Founded by Maharana Udai Singh II in 1559, it\u2019s set around a series of artificial lakes and is known for its lavish royal residences. City Palace, overlooking Lake Pichola, is a monumental complex of 11 palaces.",
+            "rating": 4.8,
+            "price": 33600,
+            "highlights": [
+                "City Palace",
+                "Lake Pichola",
+                "Jag Mandir",
+                "Saheliyon-ki-Bari"
+            ],
+            "itinerary": [
+                {
+                    "day": 1,
+                    "title": "Lake View",
+                    "desc": "Boat ride on Lake Pichola."
+                },
+                {
+                    "day": 2,
+                    "title": "History",
+                    "desc": "Explore the massive City Palace."
+                },
+                {
+                    "day": 3,
+                    "title": "Sunset",
+                    "desc": "Monsoon Palace sunset view."
+                }
+            ]
+        },
+        {
+            "id": "d-varanasi",
+            "name": "Varanasi, India",
+            "image": "https://images.unsplash.com/photo-1561359313-0639aad49ca6?auto=format&fit=crop&q=80&w=800",
+            "description": "Spiritual Capital",
+            "longDescription": "Varanasi is a city in the northern Indian state of Uttar Pradesh dating to the 11th century B.C. Regarded as the spiritual capital of India, the city draws Hindu pilgrims who bathe in the Ganges River\u2019s sacred waters and perform funeral rites. Along the city's winding streets are some 2,000 temples.",
+            "rating": 4.6,
+            "price": 21000,
+            "highlights": [
+                "Ganga Aarti",
+                "Kashi Vishwanath",
+                "Sarnath",
+                "Ghats"
+            ],
+            "itinerary": [
+                {
+                    "day": 1,
+                    "title": "Evening Aarti",
+                    "desc": "Witness the Ganga Aarti at Dashashwamedh Ghat."
+                },
+                {
+                    "day": 2,
+                    "title": "Temples",
+                    "desc": "Kashi Vishwanath Darshan."
+                },
+                {
+                    "day": 3,
+                    "title": "History",
+                    "desc": "Visit Sarnath stupas."
+                }
+            ]
+        },
+        {
+            "id": "d-dubai",
+            "name": "Dubai, UAE",
+            "image": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&q=80&w=800",
+            "description": "Luxury & Skyscrapers",
+            "longDescription": "Dubai is a city and emirate in the United Arab Emirates known for luxury shopping, ultramodern architecture and a lively nightlife scene. Burj Khalifa, an 830m-tall tower, dominates the skyscraper-filled skyline. At its foot lies Dubai Fountain, with jets and lights choreographed to music.",
+            "rating": 4.7,
+            "price": 75600,
+            "highlights": [
+                "Burj Khalifa",
+                "Dubai Mall",
+                "Desert Safari",
+                "Palm Jumeirah"
+            ],
+            "itinerary": [
+                {
+                    "day": 1,
+                    "title": "Heights",
+                    "desc": "Burj Khalifa top view."
+                },
+                {
+                    "day": 2,
+                    "title": "Shopping",
+                    "desc": "Dubai Mall and Fountains."
+                },
+                {
+                    "day": 3,
+                    "title": "Desert",
+                    "desc": "Evening Desert Safari with BBQ."
+                }
+            ]
+        },
+        {
+            "id": "d-singapore",
+            "name": "Singapore",
+            "image": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&q=80&w=800",
+            "description": "Garden City",
+            "longDescription": "Singapore, an island city-state off southern Malaysia, is a global financial center with a tropical climate and multicultural population. Its colonial core centers on the Padang, a cricket field since the 1830s and now flanked by grand buildings such as City Hall.",
+            "rating": 4.8,
+            "price": 92400,
+            "highlights": [
+                "Marina Bay Sands",
+                "Gardens by the Bay",
+                "Sentosa",
+                "Universal Studios"
+            ],
+            "itinerary": [
+                {
+                    "day": 1,
+                    "title": "City Icons",
+                    "desc": "Marina Bay and Merlion Park."
+                },
+                {
+                    "day": 2,
+                    "title": "Gardens",
+                    "desc": "Cloud Forest and Flower Dome."
+                },
+                {
+                    "day": 3,
+                    "title": "Island Fun",
+                    "desc": "Universal Studios Sentosa."
+                }
+            ]
+        },
+        {
+            "id": "d-maldives",
+            "name": "Maldives",
+            "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&q=80&w=800",
+            "description": "Island Luxury",
+            "longDescription": "The Maldives, arguably the ultimate island paradise, is a nation of tropical islands in the Indian Ocean. It is known for its beaches, blue lagoons and extensive reefs. The capital, Mal\u00e9, has a busy fish market, restaurants and shops on the main road, Majeedhee Magu.",
+            "rating": 4.9,
+            "price": 168000,
+            "highlights": [
+                "Water Villas",
+                "Snorkeling",
+                "Sunset Cruise",
+                "Bioluminescence"
+            ],
+            "itinerary": [
+                {
+                    "day": 1,
+                    "title": "Arrival",
+                    "desc": "Speedboat transfer to resort."
+                },
+                {
+                    "day": 2,
+                    "title": "Water World",
+                    "desc": "Snorkeling and diving."
+                },
+                {
+                    "day": 3,
+                    "title": "Relaxation",
+                    "desc": "Spa day and sunset dinner."
+                }
+            ]
+        },
+        {
+            "id": "d-santorini",
+            "name": "Santorini, Greece",
+            "image": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&q=80&w=800",
+            "description": "White & Blue",
+            "longDescription": "Santorini is one of the Cyclades islands in the Aegean Sea. It was devastated by a volcanic eruption in the 16th century BC, forever shaping its rugged landscape. The whitewashed, cubiform houses of its 2 principal towns, Fira and Oia, cling to cliffs above an underwater caldera.",
+            "rating": 4.8,
+            "price": 109200,
+            "highlights": [
+                "Oia Sunset",
+                "Blue Domed Churches",
+                "Red Beach",
+                "Winery Tour"
+            ],
+            "itinerary": [
+                {
+                    "day": 1,
+                    "title": "Oia",
+                    "desc": "Explore the famous village of Oia."
+                },
+                {
+                    "day": 2,
+                    "title": "Volcano",
+                    "desc": "Boat tour to the volcano."
+                },
+                {
+                    "day": 3,
+                    "title": "Beaches",
+                    "desc": "Relax at Red Beach and Kamari."
+                }
+            ]
+        },
+        {
+            "id": "d-darjeeling",
+            "name": "Darjeeling, India",
+            "image": "/images/darjeeling_1.jpg",
+            "images": [
+                "/images/darjeeling_1.jpg",
+                "/images/darjeeling_2.png",
+                "/images/darjeeling_3.png",
+                "/images/darjeeling_4.png",
+                "/images/darjeeling_5.png"
+            ],
+            "description": "Queen of Hills",
+            "longDescription": "Darjeeling is a town in India's West Bengal state, in the Himalayan foothills. Once a summer resort for the British Raj elite, it remains the terminus of the narrow-gauge Darjeeling Himalayan Railway, or \u201cToy Train,\u201d completed in 1881. It's famed for the distinctive black tea grown on plantations that dot its surrounding slopes.",
+            "rating": 4.5,
+            "price": 25200,
+            "highlights": [
+                "Tiger Hill",
+                "Toy Train",
+                "Tea Gardens",
+                "Batasia Loop"
+            ],
+            "itinerary": [
+                {
+                    "day": 1,
+                    "title": "Sunrise",
+                    "desc": "Early morning at Tiger Hill."
+                },
+                {
+                    "day": 2,
+                    "title": "Heritage",
+                    "desc": "Joy ride on Himalayan Railway."
+                },
+                {
+                    "day": 3,
+                    "title": "Tea",
+                    "desc": "Visit Happy Valley Tea Estate."
+                }
+            ]
+        },
+        {
+            "id": "d-mysore",
+            "name": "Mysore, India",
+            "image": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&q=80&w=800",
+            "description": "Palace City",
+            "longDescription": "Mysore (or Mysuru), a city in India's southwestern Karnataka state, was the capital of the Kingdom of Mysore from 1399 to 1947. In its center is opulent Mysore Palace, seat of the former ruling Wodeyar dynasty. The palace blends Hindu, Islamic, Gothic and Rajput styles.",
+            "rating": 4.6,
+            "price": 23520,
+            "highlights": [
+                "Mysore Palace",
+                "Chamundi Hill",
+                "Brindavan Gardens",
+                "Zoo"
+            ],
+            "itinerary": [
+                {
+                    "day": 1,
+                    "title": "Royalty",
+                    "desc": "Grand Mysore Palace tour."
+                },
+                {
+                    "day": 2,
+                    "title": "Devotion",
+                    "desc": "Chamundeshwari Temple visit."
+                },
+                {
+                    "day": 3,
+                    "title": "Gardens",
+                    "desc": "Evening light show at Brindavan."
+                }
+            ]
+        },
+        {
+            "id": "d-rishikesh",
+            "name": "Rishikesh, India",
+            "image": "/images/rishikesh_1.png",
+            "images": [
+                "/images/rishikesh_1.png",
+                "/images/rishikesh_2.png",
+                "/images/rishikesh_3.png",
+                "/images/rishikesh_4.png",
+                "/images/rishikesh_5.png"
+            ],
+            "description": "Yoga Capital",
+            "longDescription": "Rishikesh is a city in India\u2019s northern state of Uttarakhand, in the Himalayan foothills beside the Ganges River. The river is considered holy, and the city is renowned as a center for studying yoga and meditation. Temples and ashrams (centers for spiritual studies) line the eastern bank around Swarg Ashram.",
+            "rating": 4.7,
+            "price": 25200,
+            "highlights": [
+                "River Rafting",
+                "Triveni Ghat",
+                "Beatles Ashram",
+                "Laxman Jhula"
+            ],
+            "itinerary": [
+                {
+                    "day": 1,
+                    "title": "Adventure",
+                    "desc": "White water rafting in Ganga."
+                },
+                {
+                    "day": 2,
+                    "title": "Spirituality",
+                    "desc": "Attend evening Aarti."
+                },
+                {
+                    "day": 3,
+                    "title": "Peace",
+                    "desc": "Yoga session and ashram visit."
+                }
+            ]
+        },
+        {
+            "id": "d-gangtok",
+            "name": "Gangtok, India",
+            "image": "/images/gangtok_1.png",
+            "images": [
+                "/images/gangtok_1.png",
+                "/images/gangtok_2.png",
+                "/images/gangtok_3.png",
+                "/images/gangtok_4.png",
+                "/images/gangtok_5.png"
+            ],
+            "description": "Sikkim's Gem",
+            "longDescription": "Gangtok is the capital of the mountainous northern Indian state of Sikkim. Established as a Buddhist pilgrimage site in the 1840s, the city became capital of an independent monarchy after British rule ended, but joined India in 1975. Today, it remains a Tibetan Buddhist center and a base for hikers organizing permits and transport for treks through Sikkim\u2019s Himalayan mountain ranges.",
+            "rating": 4.6,
+            "price": 37800,
+            "highlights": [
+                "Nathu La Pass",
+                "Rumtek Monastery",
+                "MG Marg",
+                "Tsomgo Lake"
+            ],
+            "itinerary": [
+                {
+                    "day": 1,
+                    "title": "City Vibe",
+                    "desc": "Stroll on MG Marg."
+                },
+                {
+                    "day": 2,
+                    "title": "Borders",
+                    "desc": "Visit Nathu La (Indo-China border)."
+                },
+                {
+                    "day": 3,
+                    "title": "Culture",
+                    "desc": "Monastery tour."
+                }
+            ]
+        },
+        {
+            "id": "d-hampi",
+            "name": "Hampi, India",
+            "image": "https://images.unsplash.com/photo-1620766182966-c6eb5ed2b788?auto=format&fit=crop&q=80&w=800",
+            "description": "Ruins & Boulders",
+            "longDescription": "Hampi is an ancient village in the south Indian state of Karnataka. It\u2019s dotted with numerous ruined temple complexes from the Vijayanagara Empire. On the south bank of the River Tungabhadra is the 7th-century Hindu Virupaksha Temple, near the revived Hampi Bazaar.",
+            "rating": 4.8,
+            "price": 25200,
+            "highlights": [
+                "Virupaksha Temple",
+                "Stone Chariot",
+                "Hippie Island",
+                "Vithala Temple"
+            ],
+            "itinerary": [
+                {
+                    "day": 1,
+                    "title": "Temples",
+                    "desc": "Explore the ancient Vijayanagara ruins."
+                },
+                {
+                    "day": 2,
+                    "title": "River Side",
+                    "desc": "Coracle ride in Tungabhadra."
+                },
+                {
+                    "day": 3,
+                    "title": "Sunset",
+                    "desc": "Sunset from Matanga Hill."
+                }
+            ]
+        },
+        {
+            "id": "d-ooty",
+            "name": "Ooty, India",
+            "image": "/images/ooty_1.png",
+            "images": [
+                "/images/ooty_1.png",
+                "/images/ooty_2.png",
+                "/images/ooty_3.png",
+                "/images/ooty_4.png",
+                "/images/ooty_5.png"
+            ],
+            "description": "Queen of Nilgiris",
+            "longDescription": "Ooty, also known as Udhagamandalam, is a resort town in the Western Ghats mountains, in southern India's Tamil Nadu state. Founded as a British Raj summer resort, it retains a working steam railway line. Stone House, a 19th-century residence, and the 1855 Government Botanical Garden are iconic landmarks. The town is surrounded by the Nilgiri hills and is famous for its tea plantations.",
+            "rating": 4.6,
+            "price": 27720,
+            "highlights": [
+                "Botanical Gardens",
+                "Ooty Lake",
+                "Doddabetta Peak",
+                "Tea Museum"
+            ],
+            "itinerary": [
+                {
+                    "day": 1,
+                    "title": "Gardens",
+                    "desc": "Check-in and visit Botanical Gardens."
+                },
+                {
+                    "day": 2,
+                    "title": "Peaks",
+                    "desc": "Visit Doddabetta Peak."
+                },
+                {
+                    "day": 3,
+                    "title": "Lake",
+                    "desc": "Boating at Ooty Lake."
+                }
+            ]
+        },
+        {
+            "id": "d-tungnath",
+            "name": "Tungnath Trek (Chopta), India",
+            "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800",
+            "images": [
+                "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=1200",
+                "https://images.unsplash.com/photo-1486872378941-4e09d8460592?auto=format&fit=crop&q=80&w=800",
+                "https://images.unsplash.com/photo-1544198365-f5d60b6f8d69?auto=format&fit=crop&q=80&w=800",
+                "https://images.unsplash.com/photo-1585544314038-a0d07e6923b5?auto=format&fit=crop&q=80&w=800",
+                "https://images.unsplash.com/photo-1506103323067-1729c1537243?auto=format&fit=crop&q=80&w=800"
+            ],
+            "description": "Highest Shiva Temple",
+            "longDescription": "Tungnath is the highest Shiva temple in the world and is the highest of the five Panch Kedar temples located in the mountain range of Tunganath in Rudraprayag district, in the Indian state of Uttarakhand. The Tunganath (literal meaning: Lord of the peaks) mountains form the Mandakini and Alaknanda river valleys.",
+            "rating": 4.9,
+            "reviews": 210,
+            "price": 16500,
+            "highlights": [
+                "Tungnath Temple",
+                "Chandrashila Peak",
+                "Deoria Tal",
+                "Chopta Meadows"
+            ],
+            "included": [
+                "Camping Stay",
+                "All Meals",
+                "Trek Guide",
+                "Permits",
+                "Transport from Rishikesh"
+            ],
+            "excluded": [
+                "Personal Porter",
+                "Travel Insurance",
+                "Tips"
+            ],
+            "weather": {
+                "temp": "10°C",
+                "bestTime": "Apr - Jun, Sep - Nov",
+                "season": "Cool"
+            },
+            "itinerary": [
+                {
+                    "day": 1,
+                    "title": "Chopta Arrival",
+                    "desc": "Drive from Rishikesh to Chopta base camp."
+                },
+                {
+                    "day": 2,
+                    "title": "The Summit",
+                    "desc": "Trek to Tungnath Temple and Chandrashila Peak."
+                },
+                {
+                    "day": 3,
+                    "title": "Lake Trek",
+                    "desc": "Visit Deoria Tal and return journey."
+                }
+            ]
+        },
+        {
+            "id": "d-rameshwaram",
+            "name": "Rameshwaram, India",
+            "image": "/images/rameshwaram.png",
+            "images": [
+                "/images/rameshwaram.png",
+                "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&q=80&w=800",
+                "https://images.unsplash.com/photo-1627894451724-4f0e693175c5?auto=format&fit=crop&q=80&w=800",
+                "https://images.unsplash.com/photo-1623838424263-d143c7b8054c?auto=format&fit=crop&q=80&w=800",
+                "https://images.unsplash.com/photo-1590422749449-366f64243866?auto=format&fit=crop&q=80&w=800"
+            ],
+            "description": "Bridge to Divinity",
+            "longDescription": "Rameshwaram is a town on Pamban Island, in the southeast Indian state of Tamil Nadu. It’s known for Ramanathaswamy Temple, a Hindu pilgrimage site with ornate corridors and huge sculpted pillars. Agnitheertham is a holy water body where pilgrims take a dip.",
+            "rating": 4.8,
+            "reviews": 185,
+            "price": 22000,
+            "highlights": [
+                "Ramanathaswamy Temple",
+                "Pamban Bridge",
+                "Dhanushkodi",
+                "Agnitheertham"
+            ],
+            "included": [
+                "3 Star Hotel",
+                "Breakfast & Dinner",
+                "AC Transport",
+                "Temple Pass"
+            ],
+            "excluded": [
+                "Train Tickets",
+                "Lunch",
+                "Personal Expenses"
+            ],
+            "weather": {
+                "temp": "30°C",
+                "bestTime": "Oct - Apr",
+                "season": "Tropical"
+            },
+            "itinerary": [
+                {
+                    "day": 1,
+                    "title": "Temple Visit",
+                    "desc": "Darshan at Ramanathaswamy Temple."
+                },
+                {
+                    "day": 2,
+                    "title": "Ghost Town",
+                    "desc": "Jeep ride to Dhanushkodi and Lands End."
+                },
+                {
+                    "day": 3,
+                    "title": "Engineering Marvel",
+                    "desc": "Dr. APJ Abdul Kalam Memorial and Pamban Bridge view."
+                }
+            ]
+        },
+        {
+            "id": "d-trivandrum",
+            "name": "Trivandrum & Padmanabhaswamy, India",
+            "image": "https://hindumantra.net/wp-content/uploads/2024/06/padmanabhaswamy-temple-1.webp",
+            "images": [
+                "https://hindumantra.net/wp-content/uploads/2024/06/padmanabhaswamy-temple-1.webp",
+                "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&q=80&w=800",
+                "https://images.unsplash.com/photo-1596392942735-8656d0590c23?auto=format&fit=crop&q=80&w=800",
+                "https://images.unsplash.com/photo-1506459345228-db936bc4bb0a?auto=format&fit=crop&q=80&w=800",
+                "https://images.unsplash.com/photo-1590053912644-7729dc97686b?auto=format&fit=crop&q=80&w=800",
+                "https://images.unsplash.com/photo-1629218671607-b2e84d436151?auto=format&fit=crop&q=80&w=800"
+            ],
+            "description": "Richest Temple & Beaches",
+            "longDescription": "Thiruvananthapuram (or Trivandrum) is the capital of the southern Indian state of Kerala. It's distinguished by its British colonial architecture and many art galleries. It’s also home to the massive Sree Padmanabhaswamy Temple, the world's richest place of worship, known for its intricate Gopuram and vaulted gold vaults.",
+            "rating": 4.7,
+            "reviews": 150,
+            "price": 28500,
+            "highlights": [
+                "Padmanabhaswamy Temple",
+                "Kovalam Beach",
+                "Napier Museum",
+                "Poovar Backwaters"
+            ],
+            "included": [
+                "Note: Temple Dress Code Strict (Dhoti/Saree)",
+                "4 Star Stay",
+                "Breakfast",
+                "AC Car"
+            ],
+            "excluded": [
+                "Flights",
+                "Lunch & Dinner",
+                "Temple Donations"
+            ],
+            "weather": {
+                "temp": "29°C",
+                "bestTime": "Oct - Feb",
+                "season": "Humid"
+            },
+            "itinerary": [
+                {
+                    "day": 1,
+                    "title": "Divine Darshan",
+                    "desc": "Morning visit to Padmanabhaswamy Temple."
+                },
+                {
+                    "day": 2,
+                    "title": "Beach Day",
+                    "desc": "Relax at Kovalam Beach and Lighthouse."
+                },
+                {
+                    "day": 3,
+                    "title": "Backwaters",
+                    "desc": "Poovar Island boat ride and mangroves."
+                }
+            ]
+        }
+    ],
+    "flights": [
+        {
+            "id": "f1",
+            "airline": "SkyWays",
+            "logo": "https://images.unsplash.com/photo-1517404215738-15263e9f9178?auto=format&fit=crop&q=80&w=50",
+            "flightNumber": "SW-101",
+            "from": "New York (JFK)",
+            "to": "London (LHR)",
+            "departureTime": "10:00 AM",
+            "arrivalTime": "10:00 PM",
+            "duration": "7h 00m",
+            "price": 37800,
+            "stops": 0,
+            "refundable": true
+        },
+        {
+            "id": "f2",
+            "airline": "EcoAir",
+            "logo": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&q=80&w=50",
+            "flightNumber": "EA-204",
+            "from": "New York (JFK)",
+            "to": "London (LHR)",
+            "departureTime": "02:00 PM",
+            "arrivalTime": "03:00 AM",
+            "duration": "8h 00m",
+            "price": 31920,
+            "stops": 1,
+            "refundable": false
+        },
+        {
+            "id": "f3",
+            "airline": "RoyalJet",
+            "logo": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&q=80&w=50",
+            "flightNumber": "RJ-99",
+            "from": "Paris (CDG)",
+            "to": "Tokyo (HND)",
+            "departureTime": "11:30 PM",
+            "arrivalTime": "07:00 PM",
+            "duration": "12h 30m",
+            "price": 79800,
+            "stops": 0,
+            "refundable": true
+        }
+    ],
+    "hotels": [
+        {
+            "id": "h1",
+            "name": "Grand Plaza Hotel",
+            "location": "Paris, France",
+            "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=800",
+            "rating": 5,
+            "pricePerNight": 21000,
+            "amenities": [
+                "WiFi",
+                "Pool",
+                "Spa",
+                "Gym"
+            ]
+        },
+        {
+            "id": "h2",
+            "name": "Ocean View Resort",
+            "location": "Bali, Indonesia",
+            "image": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&q=80&w=800",
+            "rating": 4,
+            "pricePerNight": 10080,
+            "amenities": [
+                "Beach Access",
+                "Breakfast",
+                "WiFi"
+            ]
+        },
+        {
+            "id": "h3",
+            "name": "City Center Inn",
+            "location": "New York, USA",
+            "image": "https://images.unsplash.com/photo-1596436889106-be35e843f974?auto=format&fit=crop&q=80&w=800",
+            "rating": 3,
+            "pricePerNight": 15120,
+            "amenities": [
+                "WiFi",
+                "Close to Metro"
+            ]
+        }
+    ],
+    "trains": [
+        {
+            "id": "t1",
+            "trainName": "EuroStar Express",
+            "trainNumber": "ES-550",
+            "from": "London",
+            "to": "Paris",
+            "departureTime": "08:00 AM",
+            "arrivalTime": "10:30 AM",
+            "duration": "2h 30m",
+            "classes": [
+                {
+                    "type": "Standard",
+                    "price": 6720,
+                    "seatsAvailable": 50
+                },
+                {
+                    "type": "Business",
+                    "price": 12600,
+                    "seatsAvailable": 12
+                }
+            ]
+        },
+        {
+            "id": "t2",
+            "trainName": "Bullet Train Shinkansen",
+            "trainNumber": "N-700",
+            "from": "Tokyo",
+            "to": "Kyoto",
+            "departureTime": "09:00 AM",
+            "arrivalTime": "11:15 AM",
+            "duration": "2h 15m",
+            "classes": [
+                {
+                    "type": "Unreserved",
+                    "price": 8400,
+                    "seatsAvailable": 100
+                },
+                {
+                    "type": "Green Car",
+                    "price": 15120,
+                    "seatsAvailable": 20
+                }
+            ]
+        }
+    ],
+    "visas": [
+        {
+            "id": "v1",
+            "country": "United Arab Emirates",
+            "type": "Tourist Visa",
+            "processingTime": "2-3 Days",
+            "price": 6500,
+            "flag": "https://flagcdn.com/w320/ae.png",
+            "cardImage": "https://images.unsplash.com/photo-1512453979798-5ea936a794cb?auto=format&fit=crop&q=80&w=800",
+            "requirements": [
+                "Passport Scan",
+                "Photo",
+                "Flight Tickets"
+            ]
+        },
+        {
+            "id": "v2",
+            "country": "Schengen (France)",
+            "type": "Tourist Visa",
+            "processingTime": "15 Days",
+            "price": 7200,
+            "flag": "https://flagcdn.com/w320/fr.png",
+            "cardImage": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&q=80&w=800",
+            "requirements": [
+                "Passport",
+                "Bank Statement",
+                "Itinerary",
+                "Insurance"
+            ]
+        },
+        {
+            "id": "v3",
+            "country": "Thailand",
+            "type": "Visa on Arrival",
+            "processingTime": "Instant",
+            "price": 2500,
+            "flag": "https://flagcdn.com/w320/th.png",
+            "cardImage": "https://images.unsplash.com/photo-1506665531195-3566aa008110?auto=format&fit=crop&q=80&w=800",
+            "requirements": [
+                "Passport",
+                "Photo",
+                "Cash"
+            ]
+        },
+        {
+            "id": "v4",
+            "country": "United States",
+            "type": "B1/B2 Tourist",
+            "processingTime": "10-20 Days",
+            "price": 14000,
+            "flag": "https://flagcdn.com/w320/us.png",
+            "cardImage": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&q=80&w=800",
+            "requirements": [
+                "DS-160 Form",
+                "Interview",
+                "Passport & Photos"
+            ]
+        },
+        {
+            "id": "v5",
+            "country": "Singapore",
+            "type": "E-Visa",
+            "processingTime": "3-5 Days",
+            "price": 2800,
+            "flag": "https://flagcdn.com/w320/sg.png",
+            "cardImage": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&q=80&w=800",
+            "requirements": [
+                "Form 14A",
+                "Photo",
+                "Flight & Hotel"
+            ]
+        },
+        {
+            "id": "v6",
+            "country": "United Kingdom",
+            "type": "Standard Visitor",
+            "processingTime": "15 Days",
+            "price": 9500,
+            "flag": "https://flagcdn.com/w320/gb.png",
+            "cardImage": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=800",
+            "requirements": [
+                "Passport",
+                "Proof of Funds",
+                "Employment Letter"
+            ]
+        },
+        {
+            "id": "v7",
+            "country": "Australia",
+            "type": "Visitor Visa (600)",
+            "processingTime": "20 Days",
+            "price": 11500,
+            "flag": "https://flagcdn.com/w320/au.png",
+            "cardImage": "https://images.unsplash.com/photo-1523482580672-01e6f2eb60b3?auto=format&fit=crop&q=80&w=800",
+            "requirements": [
+                "Passport",
+                "Bank Statement",
+                "Identity Proof"
+            ]
+        },
+        {
+            "id": "v8",
+            "country": "Vietnam",
+            "type": "E-Visa",
+            "processingTime": "3 Days",
+            "price": 2200,
+            "flag": "https://flagcdn.com/w320/vn.png",
+            "cardImage": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&q=80&w=800",
+            "requirements": [
+                "Passport Scan",
+                "Photo"
+            ]
+        },
+        {
+            "id": "v9",
+            "country": "Japan",
+            "type": "Tourist Visa",
+            "processingTime": "4-5 Days",
+            "price": 3500,
+            "flag": "https://flagcdn.com/w320/jp.png",
+            "cardImage": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&q=80&w=800",
+            "requirements": [
+                "Visa Application",
+                "Itinerary",
+                "Financial Proof"
+            ]
+        }
+    ]
+}
